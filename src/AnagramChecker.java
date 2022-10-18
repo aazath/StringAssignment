@@ -20,13 +20,8 @@ public class AnagramChecker {
 	    //compare the two arrays' length are equal
 	    if(str1.length()==str2.length()) {
 	    	//converting the inputs to char array
-		    for (int i = 0; i < str1.length(); i++) {
-				one[i] = str1.charAt(i);
-			}
-		    
-		    for (int i = 0; i < str2.length(); i++) {
-				two[i] = str2.charAt(i);
-			}
+		    one = str1.toCharArray();
+		    two = str2.toCharArray();
 		    
 		    //sorting the arrays
 		    Arrays.sort(one);
