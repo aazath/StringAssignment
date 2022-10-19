@@ -4,7 +4,7 @@ public class repeatingCharacters {
 	public static void main(String[] args) {
 
 		//Taking the input
-		String str = "abcabc";
+		String str = "Welcome to iNeuron";
 		
 		int index = 0;
 		//convert the input into char array
